@@ -237,7 +237,7 @@ class Panel_Core(bpy.types.Panel):
 			box = col.box()
 			box.label(text="Platform not implemented", icon='CANCEL')
 		
-		elif context.scene.FBXBundleSettings.mode_bundle == 'GROUP' and len(bpy.data.groups) == 0:
+		elif context.scene.FBXBundleSettings.mode_bundle == 'GROUP' and len(bpy.data.collections) == 0:
 			box = col.box()
 			box.label(text="No groups available", icon='CANCEL')
 
