@@ -30,3 +30,7 @@ You can find documentation and the previous releases on the official website
 * bundle by group errors fixed
 * グループのバンドルが機能しない問題を修正しました。コレクション単位でまとめられるようになりました。
 
+**Download**
+
+* [FBX Bundle 1.5.1.2](https://github.com/KamuiKoji/blender-addon-fbx-bundle/releases/download/release_1.5.1.2/FBXBundleExporter1512.zip)
+
