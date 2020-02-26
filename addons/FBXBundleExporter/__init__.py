@@ -137,7 +137,7 @@ class FBXBundleSettings(bpy.types.PropertyGroup):
 		[('NAME', 'Name', "Bundle by matching object names"), 
 		('PARENT', 'Parent', "Bundle by the parent object"), 
 		# ('SPACE', 'Space', "Bundle by shared space"), 
-		('GROUP', 'Group', "Bundle by 'Groups'"),
+		('GROUP', 'Collection', "Bundle by 'Collections'"),
 		('MATERIAL', 'Material', "Bundle by matching material names"),
 		('SCENE', 'Scene', "Bundle by current scene")
 		], name = "Bundle Mode", default = 'NAME'
